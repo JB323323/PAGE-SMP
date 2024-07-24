@@ -165,7 +165,7 @@ if (providers.gradleProperty("updatingMinecraft").getOrElse("false").toBoolean()
         appliedPatches = file("patches/server")
         unappliedPatches = file("patches/unapplied/server")
         applyTaskName = "applyServerPatches"
-        patchedDir = "Paper-Server"
+        patchedDir = "PAGE-SMP SERVER"
     }
 }
 
